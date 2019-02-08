@@ -53,6 +53,11 @@ module.exports = {
           limit: 10000,
           name: utils.assetsPath('fonts/[name].[hash:7].[ext]')
         }
+      },
+      {
+        enforce: 'post',
+        test: /\.js$/,
+        loaders: ['es3ify-loader']
       }
     ]
   },
