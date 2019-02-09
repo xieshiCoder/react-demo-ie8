@@ -59,8 +59,8 @@ module.exports = {
         }
       },
       {
-        enforce: 'post',
         test: /\.js$/,
+        enforce: 'post',
         loaders: ['es3ify-loader']
       }
     ]

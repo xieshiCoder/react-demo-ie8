@@ -30,10 +30,10 @@ module.exports = {
   },
   build: {
     index: path.resolve(__dirname, '../dist/index.html'),
-    assetsPublicPath: '/',
+    assetsPublicPath: './',
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    productionSourceMap: true,
+    productionSourceMap: false,
     // https://webpack.js.org/configuration/devtool/#production
     devtool: '#source-map',
     productionGzip: false,
